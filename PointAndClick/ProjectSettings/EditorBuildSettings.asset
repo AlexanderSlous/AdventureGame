@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Act1/Forest/Forest1/Forest1.unity
+    path: Assets/Scenes/Act1/Forest/Forest1.unity
     guid: eae860a7395d87d498e49567b1b3f7a7
+  - enabled: 1
+    path: Assets/Scenes/Act1/Forest/Forest2.unity
+    guid: 6a1dac9c1118c1e4e9901a49f44230c4
   m_configObjects: {}
