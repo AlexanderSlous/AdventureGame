@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fd8f6040f29caf458289593401c9adb, type: 3}
   m_Name: Binoculars
   m_EditorClassIdentifier: 
-  itemOwned: 1
+  itemOwned: 0
   itemName: Binoculars
   itemIcon: {fileID: 0}
   combinable: 0
