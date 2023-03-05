@@ -31,8 +31,13 @@ public class Inventory : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            ToggleInventory(!canvasGroup.interactable);
+            ActivateInventory();
         }
+    }
+
+    public void ActivateInventory()
+    {
+        ToggleInventory(!canvasGroup.interactable);
     }
 
     private void ToggleInventory(bool setting)
