@@ -39,7 +39,7 @@ public class Inventory : MonoBehaviour
     public void ActivateInventory()
     {
         ToggleInventory(!canvasGroup.interactable);
-        UIAnimator.SetTrigger("InventoryToggle");
+        //UIAnimator.SetTrigger("InventoryToggle");
     }
 
     private void ToggleInventory(bool setting)
