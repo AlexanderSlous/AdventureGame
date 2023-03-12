@@ -904,7 +904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: 88981b28f4da3cf48a7afe3171947e22, type: 3}
   useEventSystem: 1
   activateDistance: 3
   clickableName: door
@@ -1476,6 +1476,7 @@ Transform:
   - {fileID: 1676901423}
   - {fileID: 829624669}
   - {fileID: 1361299566}
+  - {fileID: 1073240820}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1993,6 +1994,108 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 2.511}
+--- !u!1001 &1073240819
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 783255347}
+    m_Modifications:
+    - target: {fileID: 931104298259646104, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_Name
+      value: SayDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9992326c6fa135749aee801888766a42, type: 3}
+--- !u!224 &1073240820 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 931104298259646107, guid: 9992326c6fa135749aee801888766a42, type: 3}
+  m_PrefabInstance: {fileID: 1073240819}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1079981300 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7942517934953294095, guid: 174b56dd48e2ae9499998974da3baf30, type: 3}
@@ -3833,7 +3936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: 88981b28f4da3cf48a7afe3171947e22, type: 3}
   useEventSystem: 1
   activateDistance: 2
   clickableName: glove
