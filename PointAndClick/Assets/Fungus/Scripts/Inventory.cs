@@ -10,6 +10,7 @@ public class Inventory : MonoBehaviour
     private SayDialog[] sayDialogs;
     public CanvasGroup canvasGroup;
     private PointAndClickController AdventureController;
+    public Animator UIAnimator;
 
     public InventoryItem[] inventoryItems;
     public ItemSlot[] itemSlots;
@@ -38,6 +39,7 @@ public class Inventory : MonoBehaviour
     public void ActivateInventory()
     {
         ToggleInventory(!canvasGroup.interactable);
+        UIAnimator.SetTrigger("InventoryToggle");
     }
 
     private void ToggleInventory(bool setting)
