@@ -20,4 +20,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Act1/ForestEnd.unity
     guid: bd7e6c70ce3a03249885512caeef806d
+  - enabled: 1
+    path: Assets/Scenes/Act2/ConvinienceExterior.unity
+    guid: 56cec07c6a877224cbf96b2f49d54824
+  - enabled: 1
+    path: Assets/Scenes/Act2/ConvinienceInterior.unity
+    guid: d9136c343b7331e49b9b2f1b066c4707
+  - enabled: 1
+    path: Assets/Scenes/Act2/StorageHub.unity
+    guid: d3bc85534168e614586dfa9bee4a3304
+  - enabled: 1
+    path: Assets/Scenes/Act2/Storage1.unity
+    guid: bc27e1b3c0144c94ca8a41729e9a3fe4
+  - enabled: 1
+    path: Assets/Scenes/Act2/Storage2.unity
+    guid: 34aeec49dc3c9e4458b231f330ea7628
+  - enabled: 1
+    path: Assets/Scenes/Act2/Storage3.unity
+    guid: 32e679cdb64bff1409d1fd7394e86285
   m_configObjects: {}
