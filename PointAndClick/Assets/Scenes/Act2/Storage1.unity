@@ -1173,7 +1173,7 @@ MonoBehaviour:
   clickEnabled: 1
   hoverCursor: {fileID: 2800000, guid: 88981b28f4da3cf48a7afe3171947e22, type: 3}
   useEventSystem: 1
-  activateDistance: 1
+  activateDistance: 1.5
   clickableName: door
 --- !u!61 &1438963764
 BoxCollider2D:
