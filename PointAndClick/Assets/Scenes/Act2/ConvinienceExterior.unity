@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 639878060}
+  selectedFlowchart: {fileID: 1009200114}
 --- !u!4 &112179219
 Transform:
   m_ObjectHideFlags: 1
@@ -2219,9 +2219,6 @@ GameObject:
   - component: {fileID: 1009200114}
   - component: {fileID: 1009200113}
   - component: {fileID: 1009200112}
-  - component: {fileID: 1009200111}
-  - component: {fileID: 1009200116}
-  - component: {fileID: 1009200115}
   m_Layer: 0
   m_Name: Events Flowchart
   m_TagString: Untagged
@@ -2243,33 +2240,6 @@ Transform:
   m_Father: {fileID: 650013047}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1009200111
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1009200109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 1
-  indentLevel: 0
-  storyText: Ugh... my head...
-  description: 
-  character: {fileID: 1285908645}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1009200112
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2309,10 +2279,7 @@ MonoBehaviour:
   blockName: Start
   description: 
   eventHandler: {fileID: 1009200112}
-  commandList:
-  - {fileID: 1009200116}
-  - {fileID: 1009200111}
-  - {fileID: 1009200115}
+  commandList: []
   suppressAllAutoSelections: 0
 --- !u!114 &1009200114
 MonoBehaviour:
@@ -2340,8 +2307,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1009200113}
-  selectedCommands:
-  - {fileID: 1009200115}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2353,62 +2319,6 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
---- !u!114 &1009200115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1009200109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  description: 
-  targetObject: {fileID: 2131748929}
-  targetComponentAssemblyName: PointAndClickController, Fungus, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: PointAndClickController
-  targetMethod: ExitDialogue
-  targetMethodText: 'ExitDialogue (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
---- !u!114 &1009200116
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1009200109}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  description: 
-  targetObject: {fileID: 2131748929}
-  targetComponentAssemblyName: PointAndClickController, Fungus, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
-  targetComponentFullname: UnityEngine.Component[]
-  targetComponentText: PointAndClickController
-  targetMethod: EnterDialogue
-  targetMethodText: 'EnterDialogue (): Void'
-  methodParameters: []
-  saveReturnValue: 0
-  returnValueVariableKey: 
-  returnValueType: System.Void
-  showInherited: 0
-  callMode: 0
 --- !u!1 &1059008092
 GameObject:
   m_ObjectHideFlags: 0
@@ -2836,17 +2746,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1285908645 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8159164062206163167, guid: 37780c818b5b1ed419e61976c8738eb9, type: 3}
-  m_PrefabInstance: {fileID: 8159164061188821114}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1326641110
 GameObject:
   m_ObjectHideFlags: 0
