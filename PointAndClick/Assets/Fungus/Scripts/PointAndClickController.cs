@@ -39,6 +39,8 @@ public class PointAndClickController : MonoBehaviour
             }
             agent.SetDestination(new Vector3(followSpot.x, followSpot.y, transform.position.z));
         }
+
+        ChangePerspective();
     }
 
     private void ChangePerspective()
