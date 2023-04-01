@@ -10239,6 +10239,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Verb
       objectReference: {fileID: 0}
+    - target: {fileID: 2322176961576991499, guid: 83c633a056d3fd5468f882e8083cf722, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322176961576991499, guid: 83c633a056d3fd5468f882e8083cf722, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322176961576991499, guid: 83c633a056d3fd5468f882e8083cf722, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 2322176961576991509, guid: 83c633a056d3fd5468f882e8083cf722, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -10805,6 +10817,18 @@ PrefabInstance:
     - target: {fileID: 4381990322756085048, guid: 9310ed53ee1d96d4ba9ff9105c4408b8, type: 3}
       propertyPath: m_Name
       value: UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381990322756085050, guid: 9310ed53ee1d96d4ba9ff9105c4408b8, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381990322756085050, guid: 9310ed53ee1d96d4ba9ff9105c4408b8, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381990322756085050, guid: 9310ed53ee1d96d4ba9ff9105c4408b8, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 4381990322953138801, guid: 9310ed53ee1d96d4ba9ff9105c4408b8, type: 3}
       propertyPath: m_AnchorMax.y
