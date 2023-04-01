@@ -4251,7 +4251,7 @@ MonoBehaviour:
   m_VoxelSize: 0.016666668
   m_BuildHeightMesh: 0
   m_HideEditorLogs: 0
-  m_NavMeshData: {fileID: 23800000, guid: 1f0c28b45d2cca747ac982e09571cea6, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 51d13bb15f812e0449a5a74d254b39de, type: 2}
 --- !u!4 &1865112848
 Transform:
   m_ObjectHideFlags: 0
@@ -5124,6 +5124,14 @@ PrefabInstance:
     - target: {fileID: 2063264476365637155, guid: e293174063bb8854a806d4bc0a393d6a, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063264476365637158, guid: e293174063bb8854a806d4bc0a393d6a, type: 3}
+      propertyPath: scaleRatio
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2063264476365637158, guid: e293174063bb8854a806d4bc0a393d6a, type: 3}
+      propertyPath: perspectiveScale
+      value: 1.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e293174063bb8854a806d4bc0a393d6a, type: 3}
