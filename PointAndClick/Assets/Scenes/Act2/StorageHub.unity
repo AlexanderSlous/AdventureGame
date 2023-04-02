@@ -2511,6 +2511,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 277230493}
     m_Modifications:
+    - target: {fileID: 931104298259646099, guid: a9293bb3029c56941b8d81f644a5aa26, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 931104298259646099, guid: a9293bb3029c56941b8d81f644a5aa26, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 931104298259646104, guid: a9293bb3029c56941b8d81f644a5aa26, type: 3}
       propertyPath: m_Name
       value: SayDialog
@@ -3575,6 +3583,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Verb
       objectReference: {fileID: 0}
+    - target: {fileID: 2322176961576991499, guid: 4e32ef147273bff41a6ee57e6d514c25, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322176961576991499, guid: 4e32ef147273bff41a6ee57e6d514c25, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 2322176961576991499, guid: 4e32ef147273bff41a6ee57e6d514c25, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 2322176961576991509, guid: 4e32ef147273bff41a6ee57e6d514c25, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -4056,6 +4076,18 @@ PrefabInstance:
     - target: {fileID: 4381990322756085048, guid: 3f9564ce328fae042b98a0454569f28b, type: 3}
       propertyPath: m_Name
       value: UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381990322756085050, guid: 3f9564ce328fae042b98a0454569f28b, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381990322756085050, guid: 3f9564ce328fae042b98a0454569f28b, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381990322756085050, guid: 3f9564ce328fae042b98a0454569f28b, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 4381990322953138801, guid: 3f9564ce328fae042b98a0454569f28b, type: 3}
       propertyPath: m_AnchorMax.y

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1fd8f6040f29caf458289593401c9adb, type: 3}
-  m_Name: Binoculars
+  m_Name: Jerry Can
   m_EditorClassIdentifier: 
   itemOwned: 0
-  itemName: Binoculars
-  itemIcon: {fileID: 0}
+  itemName: Jerry Can
+  itemIcon: {fileID: 21300000, guid: e259d7be61d6bfa4d904e5df02dd392a, type: 3}
   combinable: 0
   combinableItems: []
   successBlockNames: []
-  failBlockName: ItemFail
+  failBlockName: 
