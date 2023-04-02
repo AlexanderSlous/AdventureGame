@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1009200114}
+  selectedFlowchart: {fileID: 639878060}
 --- !u!4 &112179219
 Transform:
   m_ObjectHideFlags: 1
@@ -423,23 +423,52 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &575990428
 MonoBehaviour:
-  m_ObjectHideFlags: 2
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 575990425}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 64
+  itemId: 69
   indentLevel: 0
-  _sceneName:
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 639878068}
+  startLabel:
     stringRef: {fileID: 0}
-    stringVal: Storage3
-  loadingImage: {fileID: 0}
-  sceneNameOLD: 
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &575990429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575990425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 68
+  indentLevel: 0
+  storyText: The door is jammed.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &575990430
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -589,6 +618,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 575990426}
   commandList:
+  - {fileID: 575990429}
   - {fileID: 575990428}
   suppressAllAutoSelections: 0
 --- !u!114 &575990470 stripped
@@ -1215,7 +1245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 88981b28f4da3cf48a7afe3171947e22, type: 3}
+  hoverCursor: {fileID: 2800000, guid: 3fd45faee358882438d73140d46a2c3c, type: 3}
   useEventSystem: 1
   activateDistance: 2
   clickableName: door #1
@@ -1485,7 +1515,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &985955557
 Transform:
   m_ObjectHideFlags: 0
@@ -1813,7 +1843,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157693792}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.14, y: 0, z: 0}
+  m_LocalPosition: {x: 4.52, y: -0.33, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1780249453}
@@ -1832,7 +1862,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.7767934, y: -1.7553296}
+  m_Offset: {x: -0.7767934, y: -2.2684627}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1843,7 +1873,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.5536867, y: 3.7423983}
+  m_Size: {x: 1.5536867, y: 2.7161322}
   m_EdgeRadius: 0
 --- !u!212 &1157693795
 SpriteRenderer:
@@ -1909,7 +1939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: 3e348e8c074af9a44a56345e25ad590f, type: 3}
   useEventSystem: 1
   activateDistance: 2
   clickableName: convinience store
@@ -3199,7 +3229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 2800000, guid: 88981b28f4da3cf48a7afe3171947e22, type: 3}
+  hoverCursor: {fileID: 2800000, guid: 3fd45faee358882438d73140d46a2c3c, type: 3}
   useEventSystem: 1
   activateDistance: 2
   clickableName: door #2
@@ -4189,6 +4219,14 @@ PrefabInstance:
       propertyPath: UIAnimator
       value: 
       objectReference: {fileID: 614302669}
+    - target: {fileID: 4381990323300198588, guid: 3f9564ce328fae042b98a0454569f28b, type: 3}
+      propertyPath: inventoryItems.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381990323300198588, guid: 3f9564ce328fae042b98a0454569f28b, type: 3}
+      propertyPath: inventoryItems.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 393af8a602ade2c4a873de7e8130f8a9, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f9564ce328fae042b98a0454569f28b, type: 3}
 --- !u!1001 &7942517935885164597
