@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1009200114}
+  selectedFlowchart: {fileID: 639878060}
 --- !u!4 &112179219
 Transform:
   m_ObjectHideFlags: 1
@@ -2142,6 +2142,26 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &575990446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575990425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 171
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!114 &575990455 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2303691350865980669, guid: 6321598b393a4854c8c5f0a8af056bf5, type: 3}
@@ -3052,7 +3072,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 71
-    width: 77.83505
+    width: 78.3582
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3083,11 +3103,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 366.5998, y: 157.02873}
+  scrollPos: {x: 557.92346, y: 280.86664}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.97
+  zoom: 0.6700003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -6615,10 +6635,26 @@ PrefabInstance:
       propertyPath: conditions.Array.data[0].anyVar.variable
       value: 
       objectReference: {fileID: 2012528565}
+    - target: {fileID: 2303691350865980568, guid: 6321598b393a4854c8c5f0a8af056bf5, type: 3}
+      propertyPath: commandList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303691350865980568, guid: 6321598b393a4854c8c5f0a8af056bf5, type: 3}
+      propertyPath: commandList.Array.data[0]
+      value: 
+      objectReference: {fileID: 575990446}
+    - target: {fileID: 2303691350865980568, guid: 6321598b393a4854c8c5f0a8af056bf5, type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 2303691351505661768}
     - target: {fileID: 2303691350865980571, guid: 6321598b393a4854c8c5f0a8af056bf5, type: 3}
       propertyPath: clickableObject
       value: 
       objectReference: {fileID: 1157693796}
+    - target: {fileID: 2303691350865980648, guid: 6321598b393a4854c8c5f0a8af056bf5, type: 3}
+      propertyPath: nodeRect.x
+      value: 68
+      objectReference: {fileID: 0}
     - target: {fileID: 2303691350865980648, guid: 6321598b393a4854c8c5f0a8af056bf5, type: 3}
       propertyPath: commandList.Array.size
       value: 8
@@ -6867,6 +6903,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2303691351505661768 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2303691350865980569, guid: 6321598b393a4854c8c5f0a8af056bf5, type: 3}
+  m_PrefabInstance: {fileID: 2303691351505661766}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575990425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &2322176961263076132

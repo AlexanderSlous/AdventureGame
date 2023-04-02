@@ -796,7 +796,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 212.85036
     y: 26.74557
-    width: 137.14282
+    width: 138.60757
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -811,6 +811,26 @@ MonoBehaviour:
   - {fileID: 575990468}
   - {fileID: 575990459}
   suppressAllAutoSelections: 0
+--- !u!114 &575990434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575990425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 171
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!114 &575990435
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1876,7 +1896,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 424.28116
     y: 109.37768
-    width: 144.28568
+    width: 148.73416
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2229,7 +2249,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 401.34225
     y: 55.744015
-    width: 204.28564
+    width: 208.22781
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2948,7 +2968,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 409.75113
     y: -5.6196237
-    width: 194.28566
+    width: 196.8354
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5146,8 +5166,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2303691350865980568, guid: 849f92175a39ef8478ab4a73b592d5f7, type: 3}
       propertyPath: nodeRect.width
-      value: 140
+      value: 128.48099
       objectReference: {fileID: 0}
+    - target: {fileID: 2303691350865980568, guid: 849f92175a39ef8478ab4a73b592d5f7, type: 3}
+      propertyPath: commandList.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303691350865980568, guid: 849f92175a39ef8478ab4a73b592d5f7, type: 3}
+      propertyPath: commandList.Array.data[0]
+      value: 
+      objectReference: {fileID: 575990434}
+    - target: {fileID: 2303691350865980568, guid: 849f92175a39ef8478ab4a73b592d5f7, type: 3}
+      propertyPath: commandList.Array.data[1]
+      value: 
+      objectReference: {fileID: 2303691351505661767}
     - target: {fileID: 2303691350865980569, guid: 849f92175a39ef8478ab4a73b592d5f7, type: 3}
       propertyPath: _sceneName.stringVal
       value: ConvinienceExterior
@@ -5541,6 +5573,17 @@ PrefabInstance:
     - {fileID: 2303691350865980561, guid: 849f92175a39ef8478ab4a73b592d5f7, type: 3}
     - {fileID: 2303691350865980570, guid: 849f92175a39ef8478ab4a73b592d5f7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 849f92175a39ef8478ab4a73b592d5f7, type: 3}
+--- !u!114 &2303691351505661767 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2303691350865980569, guid: 849f92175a39ef8478ab4a73b592d5f7, type: 3}
+  m_PrefabInstance: {fileID: 2303691351505661766}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575990425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2322176961263076132
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6184,12 +6227,16 @@ PrefabInstance:
       objectReference: {fileID: 614302669}
     - target: {fileID: 4381990323300198588, guid: b5db8d68df3d49a408dee3a551712023, type: 3}
       propertyPath: inventoryItems.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4381990323300198588, guid: b5db8d68df3d49a408dee3a551712023, type: 3}
       propertyPath: inventoryItems.Array.data[5]
       value: 
       objectReference: {fileID: 11400000, guid: 393af8a602ade2c4a873de7e8130f8a9, type: 2}
+    - target: {fileID: 4381990323300198588, guid: b5db8d68df3d49a408dee3a551712023, type: 3}
+      propertyPath: inventoryItems.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 31baef2f77b633c438e232e280156231, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5db8d68df3d49a408dee3a551712023, type: 3}
 --- !u!1001 &8159164061188821114
