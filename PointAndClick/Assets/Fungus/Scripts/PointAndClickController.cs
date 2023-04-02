@@ -7,7 +7,6 @@ public class PointAndClickController : MonoBehaviour
 {
     public Vector2 followSpot;
     public Vector3 FlippedScale;
-    public float speed;
     public float perspectiveScale;
     public float scaleRatio;
     public bool inDialogue;

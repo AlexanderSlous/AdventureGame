@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2063264476365637158}
   - component: {fileID: 2063264476365637159}
   - component: {fileID: 2063264476365637156}
+  - component: {fileID: 4397910553899994690}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2063264476365637155}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.853, y: -2.131, z: 0}
+  m_LocalPosition: {x: 1.17, y: -3.52, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 1306277379
   m_SortingLayer: 5
   m_SortingOrder: 1
-  m_Sprite: {fileID: 6470649431856699512, guid: 494885ad7c0c8404db14c52d024a1745, type: 3}
+  m_Sprite: {fileID: 6470649431856699512, guid: 15d277419c66b3e4a9486eddc61bc638, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,9 +99,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   followSpot: {x: 0, y: 0}
+  FlippedScale: {x: 0, y: 0, z: 0}
   speed: 1.5
-  perspectiveScale: 1.4
-  scaleRatio: 2.2
+  perspectiveScale: 0.9
+  scaleRatio: 0.9
   inDialogue: 0
   cutSceneInProgress: 0
 --- !u!50 &2063264476365637159
@@ -146,3 +148,22 @@ NavMeshAgent:
   m_BaseOffset: 0.18
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!95 &4397910553899994690
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063264476365637155}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 35107dcab252b084fa3606f51ed81b22, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

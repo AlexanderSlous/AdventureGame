@@ -342,6 +342,26 @@ MonoBehaviour:
   soundClip: {fileID: 8300000, guid: 5ed732a71e817ce47920b58ba6524082, type: 3}
   volume: 1
   waitUntilFinished: 0
+--- !u!114 &575990428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575990425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 175
+  indentLevel: 0
+  duration: 3
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 28
 --- !u!114 &575990470 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2303691350865980659, guid: 9c8a3c20e3c7b264bb7215dddc6f02b8, type: 3}
@@ -2161,6 +2181,14 @@ PrefabInstance:
       propertyPath: clickableObject
       value: 
       objectReference: {fileID: 1157693796}
+    - target: {fileID: 2303691350865980648, guid: 9c8a3c20e3c7b264bb7215dddc6f02b8, type: 3}
+      propertyPath: commandList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2303691350865980648, guid: 9c8a3c20e3c7b264bb7215dddc6f02b8, type: 3}
+      propertyPath: commandList.Array.data[0]
+      value: 
+      objectReference: {fileID: 575990428}
     - target: {fileID: 2303691350865980649, guid: 9c8a3c20e3c7b264bb7215dddc6f02b8, type: 3}
       propertyPath: m_RootOrder
       value: 0

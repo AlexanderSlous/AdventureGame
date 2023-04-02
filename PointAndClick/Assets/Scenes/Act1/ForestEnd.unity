@@ -4197,7 +4197,6 @@ GameObject:
   - component: {fileID: 2136877349}
   - component: {fileID: 2136877348}
   - component: {fileID: 2136877347}
-  - component: {fileID: 2136877351}
   - component: {fileID: 2136877364}
   - component: {fileID: 2136877363}
   - component: {fileID: 2136877362}
@@ -4301,7 +4300,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 2136877348}
   commandList:
-  - {fileID: 2136877351}
   - {fileID: 2136877347}
   - {fileID: 2136877364}
   - {fileID: 2136877363}
@@ -4346,7 +4344,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2136877349}
   selectedCommands:
-  - {fileID: 2136877353}
+  - {fileID: 2136877347}
   variables:
   - {fileID: 2136877369}
   - {fileID: 2136877368}
@@ -4365,26 +4363,6 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
---- !u!114 &2136877351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136877345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 2
-  indentLevel: 0
-  duration: 0
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  fadeTweenType: 4
 --- !u!114 &2136877352
 MonoBehaviour:
   m_ObjectHideFlags: 0
