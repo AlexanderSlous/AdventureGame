@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1009200114}
+  selectedFlowchart: {fileID: 639878060}
 --- !u!4 &112179219
 Transform:
   m_ObjectHideFlags: 1
@@ -4760,6 +4760,10 @@ PrefabInstance:
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 2131748929}
+    - target: {fileID: 2303691350865980663, guid: b181d260d7286c74ca7ea762f21e739a, type: 3}
+      propertyPath: blockName
+      value: Clickable/Morgan
+      objectReference: {fileID: 0}
     - target: {fileID: 2303691350865980663, guid: b181d260d7286c74ca7ea762f21e739a, type: 3}
       propertyPath: commandList.Array.size
       value: 5
