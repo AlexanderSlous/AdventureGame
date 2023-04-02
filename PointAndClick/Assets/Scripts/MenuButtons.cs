@@ -19,6 +19,7 @@ public class MenuButtons : MonoBehaviour
 
     public void StartButton()
     {
+        Delay();
         SceneManager.LoadScene("Forest1");
     }
 
@@ -26,4 +27,10 @@ public class MenuButtons : MonoBehaviour
     {
         Application.Quit();
     }
+
+    IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(3);
+    }
+    
 }

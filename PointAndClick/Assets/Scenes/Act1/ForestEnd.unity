@@ -1178,11 +1178,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &685902400 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2063264476365637155, guid: e293174063bb8854a806d4bc0a393d6a, type: 3}
-  m_PrefabInstance: {fileID: 1848618888}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &734240423
 GameObject:
   m_ObjectHideFlags: 0
@@ -4203,22 +4198,16 @@ GameObject:
   - component: {fileID: 2136877361}
   - component: {fileID: 2136877360}
   - component: {fileID: 2136877359}
-  - component: {fileID: 2136877358}
   - component: {fileID: 2136877357}
   - component: {fileID: 2136877356}
   - component: {fileID: 2136877355}
   - component: {fileID: 2136877354}
   - component: {fileID: 2136877353}
-  - component: {fileID: 2136877352}
   - component: {fileID: 2136877365}
   - component: {fileID: 2136877369}
   - component: {fileID: 2136877368}
   - component: {fileID: 2136877367}
   - component: {fileID: 2136877366}
-  - component: {fileID: 2136877381}
-  - component: {fileID: 2136877380}
-  - component: {fileID: 2136877379}
-  - component: {fileID: 2136877378}
   m_Layer: 0
   m_Name: EventFlowchart
   m_TagString: Untagged
@@ -4307,13 +4296,11 @@ MonoBehaviour:
   - {fileID: 2136877361}
   - {fileID: 2136877360}
   - {fileID: 2136877359}
-  - {fileID: 2136877358}
   - {fileID: 2136877365}
   - {fileID: 2136877357}
   - {fileID: 2136877356}
   - {fileID: 2136877355}
   - {fileID: 2136877354}
-  - {fileID: 2136877352}
   - {fileID: 2136877353}
   - {fileID: 2136877366}
   suppressAllAutoSelections: 0
@@ -4344,15 +4331,11 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2136877349}
   selectedCommands:
-  - {fileID: 2136877347}
+  - {fileID: 2136877353}
   variables:
   - {fileID: 2136877369}
   - {fileID: 2136877368}
   - {fileID: 2136877367}
-  - {fileID: 2136877381}
-  - {fileID: 2136877380}
-  - {fileID: 2136877379}
-  - {fileID: 2136877378}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -4363,45 +4346,6 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
---- !u!114 &2136877352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136877345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 445c07472dafe4e0ead0e88c4b757401, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 15
-  indentLevel: 0
-  _targetObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 780588336}
-  _tweenName:
-    stringRef: {fileID: 0}
-    stringVal: 
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1.5
-  easeType: 2
-  loopType: 0
-  stopPreviousTweens: 0
-  waitUntilFinished: 0
-  targetObjectOLD: {fileID: 0}
-  tweenNameOLD: 
-  durationOLD: 0
-  _toTransform:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  _toPosition:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: -2.5, z: 0}
-  isLocal: 0
-  toTransformOLD: {fileID: 0}
-  toPositionOLD: {x: 0, y: 0, z: 0}
 --- !u!114 &2136877353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4530,45 +4474,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &2136877358
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136877345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 445c07472dafe4e0ead0e88c4b757401, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 9
-  indentLevel: 0
-  _targetObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 685902400}
-  _tweenName:
-    stringRef: {fileID: 0}
-    stringVal: 
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 2
-  easeType: 2
-  loopType: 0
-  stopPreviousTweens: 0
-  waitUntilFinished: 0
-  targetObjectOLD: {fileID: 0}
-  tweenNameOLD: 
-  durationOLD: 0
-  _toTransform:
-    transformRef: {fileID: 0}
-    transformVal: {fileID: 0}
-  _toPosition:
-    vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: -2.5, z: 0}
-  isLocal: 0
-  toTransformOLD: {fileID: 0}
-  toPositionOLD: {x: 0, y: 0, z: 0}
 --- !u!114 &2136877359
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4612,7 +4517,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 5
+    floatVal: 3
   durationOLD: 0
 --- !u!114 &2136877361
 MonoBehaviour:
@@ -4803,64 +4708,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: DialogPlayed
-  value: 0
---- !u!114 &2136877378
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136877345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 0
-  key: CanTaken
-  value: 0
---- !u!114 &2136877379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136877345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 0
-  key: StoreDialog2
-  value: 0
---- !u!114 &2136877380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136877345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 0
-  key: StoreDialog
-  value: 0
---- !u!114 &2136877381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2136877345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 0
-  key: CallMade
   value: 0

@@ -2327,7 +2327,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: 3e9bc36b3d4526748aaf504ec6434605, type: 3}
   useEventSystem: 1
   activateDistance: 3
   clickableName: wreckage
@@ -3206,9 +3206,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickEnabled: 1
-  hoverCursor: {fileID: 0}
+  hoverCursor: {fileID: 2800000, guid: 3fd45faee358882438d73140d46a2c3c, type: 3}
   useEventSystem: 1
-  activateDistance: 3
+  activateDistance: 6
   clickableName: tower
 --- !u!61 &1484537560
 BoxCollider2D:
@@ -4610,7 +4610,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2303691350865980650, guid: 766c36d46fa2da84e86210e1f0068a07, type: 3}
       propertyPath: selectedCommands.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2303691350865980650, guid: 766c36d46fa2da84e86210e1f0068a07, type: 3}
       propertyPath: selectedBlocks.Array.data[0]
@@ -4838,7 +4838,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Tower
+    stringVal: Forest3
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &2303691351505661771 stripped

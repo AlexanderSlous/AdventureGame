@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class PointAndClickController : MonoBehaviour
 {
@@ -86,11 +87,17 @@ public class PointAndClickController : MonoBehaviour
 
     public void EnterDialogue()
     {
+        Animator.SetBool("IsMoving", false);
         inDialogue = true;
         cutSceneInProgress = true;
 
         verb.verb = Verb.Action.Walk;
         verb.UpdateVerbTextBox(null);
         verb.gameObject.SetActive(false);
+    }
+
+    public void End()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

@@ -2616,7 +2616,7 @@ MonoBehaviour:
   clickEnabled: 1
   hoverCursor: {fileID: 2800000, guid: 3fd45faee358882438d73140d46a2c3c, type: 3}
   useEventSystem: 1
-  activateDistance: 2.3
+  activateDistance: 3
   clickableName: storage area
 --- !u!1 &1400319453
 GameObject:
