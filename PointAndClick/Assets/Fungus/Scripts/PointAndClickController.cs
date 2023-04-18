@@ -39,7 +39,7 @@ public class PointAndClickController : MonoBehaviour
         {
             var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && inDialogue == false)
             {
                 followSpot = new Vector2(mousePosition.x, mousePosition.y);
             }
@@ -90,6 +90,7 @@ public class PointAndClickController : MonoBehaviour
         Animator.SetBool("IsMoving", false);
         inDialogue = true;
         cutSceneInProgress = true;
+        followSpot = transform.position;
 
         verb.verb = Verb.Action.Walk;
         verb.UpdateVerbTextBox(null);

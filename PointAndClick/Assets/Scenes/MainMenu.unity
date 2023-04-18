@@ -2621,6 +2621,7 @@ GameObject:
   - component: {fileID: 1968890302}
   - component: {fileID: 1968890301}
   - component: {fileID: 1968890260}
+  - component: {fileID: 1968890307}
   m_Layer: 0
   m_Name: Events
   m_TagString: Untagged
@@ -2845,7 +2846,7 @@ MonoBehaviour:
   variable: {fileID: 1968890266}
 --- !u!114 &1968890260
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2917,6 +2918,7 @@ MonoBehaviour:
   - {fileID: 1968890274}
   - {fileID: 1968890273}
   - {fileID: 1968890255}
+  - {fileID: 1968890307}
   suppressAllAutoSelections: 0
 --- !u!114 &1968890262
 MonoBehaviour:
@@ -2945,7 +2947,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1968890261}
   selectedCommands:
-  - {fileID: 1968890274}
+  - {fileID: 1968890307}
   variables:
   - {fileID: 1968890272}
   - {fileID: 1968890271}
@@ -5428,6 +5430,26 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1968890307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968890254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 54
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!1 &2051978547
 GameObject:
   m_ObjectHideFlags: 0
