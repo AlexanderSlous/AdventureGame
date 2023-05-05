@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemOwned: 0
   itemName: Binoculars
-  itemIcon: {fileID: 0}
+  itemIcon: {fileID: 21300000, guid: 3dc0e9c7f2b52ac42acd14139f0fe536, type: 3}
   combinable: 0
   combinableItems: []
   successBlockNames: []

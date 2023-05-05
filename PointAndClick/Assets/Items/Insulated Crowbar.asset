@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemOwned: 0
   itemName: Insulated Crowbar
-  itemIcon: {fileID: 0}
+  itemIcon: {fileID: 21300000, guid: 3eeb713938689794d8172d2d96e8b780, type: 3}
   combinable: 0
   combinableItems: []
   successBlockNames: []
