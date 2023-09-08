@@ -35,6 +35,7 @@ public class PointAndClickController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Handles movement inputs and animations
         if (!inDialogue)
         {
             var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -55,6 +56,7 @@ public class PointAndClickController : MonoBehaviour
             }
         }
 
+        //Flips the sprite when walking left/right
         if (followSpot.x < transform.position.x)
         {
             Renderer.flipX = true;
@@ -67,6 +69,7 @@ public class PointAndClickController : MonoBehaviour
         ChangePerspective();
     }
 
+    //Changes scale of the character based on distance from the camera
     private void ChangePerspective()
     {
         Vector3 scale = transform.localScale;
@@ -75,6 +78,7 @@ public class PointAndClickController : MonoBehaviour
         transform.localScale = scale;
     }
 
+    //Handles entering/exiting dialogue with NPCs
     public void ExitDialogue()
     {
         inDialogue = false;
